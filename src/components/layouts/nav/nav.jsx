@@ -36,7 +36,7 @@ const Nav = () => {
         </select>
       </div>
       <div className="nav-second-part">
-        <h1 className="logo">ma7al <span>.</span></h1>
+        <h1 className="logo">kicks <span>.</span></h1>
         <div className={`nav ${menuOpen ? "open" : ""}`}>
           <p>Home</p>
           <p>Shop</p>
