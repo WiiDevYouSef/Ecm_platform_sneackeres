@@ -5,6 +5,7 @@ import Home from './components/pages/home/home';
 import Category from './components/pages/category/category';
 import FeaturedProducts from './components/pages/featured-products/featuredProducts';
 import ProductInfo from './components/pages/productInfo/productInfo';
+import Footer from './components/layouts/footer/footer';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         } />
         <Route path="/product/:id" element={<ProductInfo />} />
       </Routes>
+      <Footer/>
     </div>
   );
 };
