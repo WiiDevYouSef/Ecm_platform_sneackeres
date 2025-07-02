@@ -1,7 +1,10 @@
 import React from "react";
 import "../category/category.css";
-import categoryImg from "../../../assets/images/sliderImages/second-slider.jpg";
+// import categoryImg from "../../../assets/images/sliderImages/second-slider.jpg";
 import categoryImg2 from "../../../assets/images/sliderImages/third-slider.jpg";
+import categoryImg4 from "../../../assets/images/categoryImages/piyush.jpg";
+import categoryImg5 from "../../../assets/images/categoryImages/blue.jpg";
+import categoryImg6 from "../../../assets/images/categoryImages/gray.jpg";
 
 const Category = () => {
   return (
@@ -15,14 +18,14 @@ const Category = () => {
           </div>
 
           <div className="short">
-            <img src={categoryImg} alt="" />
+            <img src={categoryImg5} alt="" />
             <button className="category-btn">shop</button>
           </div>
         </div>
         {/* midle */}
         <div className="midle">
           <div className="short">
-            <img src={categoryImg} alt="" />
+            <img src={categoryImg6} alt="" />
             <button className="category-btn">shop</button>
           </div>
           <div className="tall">
@@ -33,11 +36,11 @@ const Category = () => {
         {/* right */}
         <div className="right">
           <div className="tall">
-            <img src={categoryImg2} alt="" />
+            <img src={categoryImg6} alt="" />
             <button className="category-btn">shop</button>
           </div>
           <div className="short">
-            <img src={categoryImg} alt="" />
+            <img src={categoryImg5} alt="" />
             <button className="category-btn">shop</button>
           </div>
         </div>

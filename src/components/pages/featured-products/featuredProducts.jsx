@@ -50,7 +50,7 @@ const FeaturedProducts = () => {
 
   return (
     <div className="featured-products-container">
-      <h1 className="text-2xl md:text-5xl font-extrabold text-gray-900 mb-8 tracking-wide uppercase">FEATURED PRODUCTS</h1>
+      <h1 className="text-2xl md:text-2xl font-extrabold text-gray-900 mb-8 tracking-wide uppercase">FEATURED PRODUCTS</h1>
       <Slider {...settings}>
         {products.map((product, index) => (
           <div key={index} className="product-slide">

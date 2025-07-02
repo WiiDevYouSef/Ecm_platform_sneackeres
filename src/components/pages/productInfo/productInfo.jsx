@@ -29,7 +29,6 @@ const ProductInfo = () => {
   return (
     <div className="flex flex-col md:flex-row gap-8 p-8 max-w-5xl mx-auto bg-white rounded-lg shadow-lg" style={{marginTop: "16vh"}}>
       <div className="flex flex-col gap-4 items-center">
-        {/* tssawer sghar */}
         <div className="flex flex-col gap-3">
           {product.gallery.map((img, idx) => (
             <img

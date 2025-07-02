@@ -8,6 +8,7 @@ import ProductInfo from './components/pages/productInfo/productInfo';
 import Footer from './components/layouts/footer/footer';
 import Collection from './components/pages/collection/collection';
 import Blog from './components/pages/blog/blog';
+import BlogInfo from './components/pages/blogInfo/blogInfo';
 
 const App = () => {
   return (
@@ -21,9 +22,11 @@ const App = () => {
             <FeaturedProducts />
             <Collection/>
             <Blog/>
+
           </>
         } />
         <Route path="/product/:id" element={<ProductInfo />} />
+        <Route path="/blog/:id" element={<BlogInfo />} />
       </Routes>  
       <Footer/>
     </div>

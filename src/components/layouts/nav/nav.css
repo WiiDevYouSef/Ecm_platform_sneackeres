@@ -10,7 +10,9 @@
 }
 
 .nav-first-part {
-  background: #00000066;
+  /* background: #00000066; */
+  background: transparent;
+  backdrop-filter: blur(10px);
   display: flex;
   align-items: center;
   justify-content: space-around;
