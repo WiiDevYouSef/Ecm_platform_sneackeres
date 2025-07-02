@@ -1,0 +1,105 @@
+.footer {
+    background-color: #f0f0f0;
+    padding: 60px 20px;
+    color: #888;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 40px;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-heading {
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.footer-text {
+    color: #888;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.footer-links li:hover {
+    color: #e63946;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.icon {
+    color: #888;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.icon:hover {
+    color: #e63946;
+}
+
+.newsletter-input {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    outline: none;
+    color: #000;
+}
+
+.subscribe-button {
+    background-color: #111;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.subscribe-button:hover {
+    background-color: #e63946;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 13px;
+    color: #b0adad;
+}
+
+.footer-bottom .developer {
+    color: #888;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.footer-bottom .developer:hover {
+    color: #e63946;
+}
