@@ -2,6 +2,7 @@ import React from 'react';
 import '../../../components/pages/blog/blog.css'
 import blogFirstImg from '../../../assets/images/blogImages/third-collection.jpg'
 import blogSecondImg from '../../../assets/images/blogImages/kobraCollectionImg.jpg'
+import blogThirdImg from '../../../assets/images/blogImages/tobias.jpg'
 
 const Blog = () => {
     return (
