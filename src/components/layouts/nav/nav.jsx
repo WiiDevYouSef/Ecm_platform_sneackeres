@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import "../nav/nav.css";
 import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaBars } from "react-icons/fa";
 import { CiUser } from "react-icons/ci";
@@ -38,7 +39,9 @@ const Nav = () => {
       <div className="nav-second-part">
         <h1 className="logo">kicks <span>.</span></h1>
         <div className={`nav ${menuOpen ? "open" : ""}`}>
-          <p>Home</p>
+          <Link to="/" style={{ textDecoration: "none", color: "inherit", fontWeight: "bold" }}>
+            <p style={{ fontWeight: "bold" }}>Home</p>
+          </Link>
           <p>Shop</p>
           <p>Features</p>
           <p>Blog</p>
