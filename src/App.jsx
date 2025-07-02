@@ -6,6 +6,7 @@ import Category from './components/pages/category/category';
 import FeaturedProducts from './components/pages/featured-products/featuredProducts';
 import ProductInfo from './components/pages/productInfo/productInfo';
 import Footer from './components/layouts/footer/footer';
+import Collection from './components/pages/collection/collection';
 
 const App = () => {
   return (
@@ -17,10 +18,11 @@ const App = () => {
             <Home />
             <Category />
             <FeaturedProducts />
+            <Collection/>
           </>
         } />
         <Route path="/product/:id" element={<ProductInfo />} />
-      </Routes>
+      </Routes>  
       <Footer/>
     </div>
   );

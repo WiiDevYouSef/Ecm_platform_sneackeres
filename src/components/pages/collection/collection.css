@@ -22,6 +22,16 @@
   transition: background-size 0.3s ease;
 }
 
+/* Add overlay to both images */
+.collection-box::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.35); /* adjust opacity as needed */
+  z-index: 1;
+  border-radius: inherit;
+}
+
 .lookbook:hover {
   background-size: 50rem;
 }
@@ -39,6 +49,8 @@
   align-items: center;
   gap: 10px;
   text-align: center;
+  color: #fff;
+  z-index: 2;
 }
 
 .lookbook-content h3 {
@@ -58,6 +70,7 @@
   font-size: 1.3rem;
   text-decoration: none;
   margin-top: 10px;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.25);
 }
 
 /* Countdown Section */
@@ -69,6 +82,14 @@
   align-items: center;
   gap: 30px;
   text-align: center;
+  z-index: 2;
+  color: #fff;
+}
+
+.countdown-content .countdown-product h1,
+.countdown-content .countdown-product p {
+  color: #fff !important;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.25);
 }
 
 .countdown-product p {

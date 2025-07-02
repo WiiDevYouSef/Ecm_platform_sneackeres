@@ -1,14 +1,18 @@
 import React from 'react';
 import './collection.css';
-import bg1 from '../../../assets/images/bg1.jpg'; // Update paths as needed
-import bg2 from '../../../assets/images/bg2.jpg';
+// import bg1 from '../../../assets/images/bg1.jpg'; // Update paths as needed
+// import bg2 from '../../../assets/images/bg2.jpg';
+import firstImgCollection from '../../../assets/images/collectionImages/firstImgCollection.jpg'
+import secondImgCollection from '../../../assets/images/collectionImages/secondImgCollection.jpg'
+// import secondImgCollection from '../../../assets/images/collectionImages/kobraCollectionImg.jpg'
+// import secondImgCollection from '../../../assets/images/collectionImages/third-collection.jpg'
 
 const Collection = () => {
   return (
     <div className="collection-container">
       <div
         className="collection-box lookbook"
-        style={{ backgroundImage: `url(${bg1})` }}
+        style={{ backgroundImage: `url(${firstImgCollection})` }}
       >
         <div className="lookbook-content">
           <h3>The Beauty</h3>
@@ -19,7 +23,7 @@ const Collection = () => {
 
       <div
         className="collection-box countdown"
-        style={{ backgroundImage: `url(${bg2})` }}
+        style={{ backgroundImage: `url(${secondImgCollection})` }}
       >
         <div className="countdown-content">
           <div className="countdown-product">
