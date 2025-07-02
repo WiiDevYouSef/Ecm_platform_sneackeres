@@ -17,7 +17,7 @@ const Blog = () => {
             facere.
           </h1>
           <p>
-            by <b>fash-them Admin on Dec 29,2025</b>
+            by <b>fash-them Admin on Dec 29,2025</b> 
           </p>
         </Link>
         <Link to={`/blog/:id`} className="blog-card">
