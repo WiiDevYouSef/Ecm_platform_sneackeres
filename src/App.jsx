@@ -7,6 +7,7 @@ import FeaturedProducts from './components/pages/featured-products/featuredProdu
 import ProductInfo from './components/pages/productInfo/productInfo';
 import Footer from './components/layouts/footer/footer';
 import Collection from './components/pages/collection/collection';
+import Blog from './components/pages/blog/blog';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
             <Category />
             <FeaturedProducts />
             <Collection/>
+            <Blog/>
           </>
         } />
         <Route path="/product/:id" element={<ProductInfo />} />
