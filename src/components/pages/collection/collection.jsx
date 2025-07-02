@@ -17,7 +17,7 @@ const Collection = () => {
         <div className="lookbook-content">
           <h3>The Beauty</h3>
           <h1>Lookbook</h1>
-          <a href="#">VIEW COLLECTION</a>
+          <a href="#">View Collection</a>
         </div>
       </div>
 
@@ -27,7 +27,7 @@ const Collection = () => {
       >
         <div className="countdown-content">
           <div className="countdown-product">
-            <p>Boxy2 T-Shirt with Roll Sleeve</p>
+            <p>Boxy2 sneacker with brown Sleeve</p>
             <h1>$20.00</h1>
           </div>
           <div className="countdown-timer">
