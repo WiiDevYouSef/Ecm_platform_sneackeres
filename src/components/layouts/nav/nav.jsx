@@ -40,7 +40,6 @@ const Nav = () => {
         <div className={`nav ${menuOpen ? "open" : ""}`}>
           <p>Home</p>
           <p>Shop</p>
-          <p>Sale</p>
           <p>Features</p>
           <p>Blog</p>
           <p>About</p>
